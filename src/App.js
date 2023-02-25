@@ -1,6 +1,22 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import NavBar from './components/nav-bar/NavBar';
+import ItemListContainer from './containers/itemListContainer/ItemListContainer';
 
+function App() {
+
+    return (
+        <div>
+            <NavBar/>
+            <ItemListContainer></ItemListContainer>
+        </div>
+    );
+}
+
+export default App;
+
+
+/*
 function App() {
   return (
     <div className="App">
@@ -21,5 +37,4 @@ function App() {
     </div>
   );
 }
-
-export default App;
+*/

@@ -1,0 +1,56 @@
+header{
+    background-color: #222831;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #EEEEEE;
+    text-decoration: none;
+    padding: 15px 5%;
+}
+
+.nav-grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: "logo items actions";
+}
+
+div.logo {
+    grid-area: logo;
+    display: flex;
+    justify-content: center;
+}
+a.title-logo {
+    font-weight: bolder;
+    font-size: 35px;
+    text-decoration: none;
+    color: #EEEEEE;
+}
+a.title-logo:hover{
+    color: #00ADB5;
+}
+
+div.items {
+    grid-area: items;
+    
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-items: center;
+}
+
+a.link-item{
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 18px
+}
+a.link-item:hover {
+    color: #00ADB5;
+}
+
+div.actions{
+    grid-area: actions;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+

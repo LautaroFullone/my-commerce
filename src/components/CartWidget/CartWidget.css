@@ -1,0 +1,44 @@
+.act-button {
+    padding: 9px 25px;
+    background-color: #00ADB5;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.act-button:hover {
+    color: unset;
+    transition: all .2s ease-in-out;
+    transform: scale(1.1)
+}
+
+/* .counter{
+    background-color: #EEEEEE;
+    color: #00ADB5;
+    border-radius: 50%;
+    margin: 0 5px;
+    padding: 4px 9px;
+} */
+
+.circle-container {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: #EEEEEE;
+    border-radius: 50%;
+    margin: 0 6px;
+}
+
+.circle-number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #00ADB5;
+}
