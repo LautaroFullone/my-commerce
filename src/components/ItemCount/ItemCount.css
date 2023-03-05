@@ -1,0 +1,36 @@
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    width: 300px;
+    gap: 20px;
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+
+
+.counter-container{
+    border: 1px solid gray;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    height: 40px;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    background-color: #fffefe;
+}
+
+.counter-operator{
+    color: #00ADB5;
+    font-weight: bolder;
+    font-size: 30px;
+    cursor: pointer;
+    margin-bottom: 7px;
+}
+
+.counter-number {
+    font-weight: bolder;
+}
+
+

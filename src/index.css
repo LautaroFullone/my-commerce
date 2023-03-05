@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn-outline-primary {
+    --bs-btn-color: #00ADB5;
+    --bs-btn-border-color: #00ADB5;
+    --bs-btn-hover-bg: #00ADB5;
+    --bs-btn-hover-border-color: #00ADB5;
+    --bs-btn-active-bg: #00ADB5;
+    --bs-btn-active-border-color: #00ADB5;
+    --bs-btn-disabled-color: #00ADB5;
+    --bs-btn-disabled-border-color: #00ADB5;
+}

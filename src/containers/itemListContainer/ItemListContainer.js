@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Button from '../../components/Button'
-import Product from '../../components/product/Product'
+import ItemCount from '../../components/ItemCount/ItemCount';
+import Product from '../../components/Product/Product'
 
 export default class ItemListContainer extends Component {
 
@@ -22,7 +23,10 @@ export default class ItemListContainer extends Component {
     render() {
         return (
             <div>
-                <ul>
+
+                <ItemCount stock={4} initial={1}></ItemCount>
+
+                {/* <ul>
                     {
                         (this.state.productsList.length > 0) ?
                             this.state.productsList.map((item, index) => {
@@ -32,7 +36,7 @@ export default class ItemListContainer extends Component {
                             <h1>No hay productos en la lista</h1>
                     }
                 </ul>
-                <Button onClick={this.addProductToList} />
+                <Button onClick={this.addProductToList} /> */}
             </div>
         );
     }

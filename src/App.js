@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import NavBar from './components/nav-bar/NavBar';
-import ItemListContainer from './containers/itemListContainer/ItemListContainer';
+import NavBar from './components/NavBar/NavBar';
+import ItemListContainer from './containers/ItemListContainer/ItemListContainer';
 
 function App() {
 
